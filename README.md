@@ -1,6 +1,9 @@
-This is an android project.
+#RemoteControl
+    It is an android project.
+    In Eclipse，you should add [library](https://github.com/JakeWharton/Android-ViewPagerIndicator/tree/master/library) 
 
-Server runs on computer,and others runs on android device.
+#RemoteControlServer
+    Server runs on computer,you should use the C++ directory,and compile it with Visual Studio.
+    Or you can download the [exe](http://pan.baidu.com/s/1kT9S7pt).
 
-You should download all,and complie in eclipse.
 
