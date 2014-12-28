@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="25dp" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="3" >
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="80dp"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_back"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/arrow_up"
+            android:layout_width="80dp"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_arrow_up"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_forward"
+            android:layout_width="80dp"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_forward"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_esc"
+            android:layout_width="80dp"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_esc"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/arrow_left"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_arrow_left"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/arrow_down"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_arrow_down"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/arrow_right"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_arrow_right"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_f5"
+            android:layout_gravity="fill"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_style"
+            android:text="@string/_f5"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/bt_space"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"
+            android:background="@drawable/button_style" />
+    </GridLayout>
+
+</RelativeLayout>

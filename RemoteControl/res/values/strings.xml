@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">远程控制</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_send">发送</string>
+    <string name="_enter">回车</string>
+    <string name="_backspace">删除</string>
+    <string name="_back">后退</string>
+    <string name="_arrow_up">↑</string>
+    <string name="_forward">前进</string>
+    <string name="_esc">Esc</string>
+    <string name="_arrow_left">←</string>
+    <string name="_arrow_down">↓</string>
+    <string name="_arrow_right">→</string>
+    <string name="_f5">刷新</string>
+    <string name="_L">L</string>
+    <string name="_R">R</string>
+
+</resources>
